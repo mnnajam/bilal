@@ -21,7 +21,7 @@ const maplinData = [
   {
     logo: "/logos/maplinhub.png",
     title: "Maplin Hub",
-    url: "http:maplinhub.com",
+    url: "http://maplinhub.com",
   },
   {
     logo: "/logos/maplinstudio.png",
