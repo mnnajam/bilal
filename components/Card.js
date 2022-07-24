@@ -1,8 +1,13 @@
 import * as React from "react";
 import * as PropTypes from "prop-types";
+import Link from "next/link";
 
 export const Image = (props) => (
-  <div className="pr-4 md:pr-0 h-[170px]">{props.children}</div>
+  <Link href={props.url}>
+    <a target={"_blank"}>
+      <div className="pr-4 md:pr-0 h-[170px]">{props.children}</div>
+    </a>
+  </Link>
 );
 export const Title = (props) => (
   <h5
