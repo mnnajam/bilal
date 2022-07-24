@@ -5,7 +5,7 @@ import Image from "next/image"
 const maplinData = [
   {
     logo: "/logos/maplinhomes.png",
-    title: " About house and properties",
+    title: "Maplin Homes",
     url: "https://maplinhomes.com",
   },
   {
